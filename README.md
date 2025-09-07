@@ -90,4 +90,114 @@ The app returns: disease name + severity + recommended solutions.
 🌐 [Your LinkedIn/GitHub Profile]
 
 ✨ If you like this project, don’t forget to ⭐ star the repo and try it on Hugging Face
-!
+
+
+
+
+
+
+# 🌿 AgriVeinAI – Plant Leaf Disease Detection  
+
+[![Live Demo](https://img.shields.io/badge/HuggingFace-Live%20Demo-yellow)](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
+[![GitHub](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/yourusername/AgriVeinAI)  
+
+AgriVeinAI is a deep learning–powered application that helps identify **plant leaf diseases** with high accuracy.  
+It uses the **PlantVillage dataset** and the **EfficientNetB0 model**, achieving **98% accuracy**.  
+
+The app extracts **leaf vein patterns**, classifies the disease, estimates its **severity**, and provides **actionable solutions** for farmers and researchers.  
+
+---
+
+## 🚀 Features  
+
+- ✅ Upload a plant leaf image for real-time disease detection  
+- ✅ **Vein pattern extraction** for improved classification  
+- ✅ Predicts across **38 disease classes** from PlantVillage dataset  
+- ✅ Provides **severity analysis** of the infection  
+- ✅ Suggests **practical remedies** and actionable solutions  
+- ✅ User-friendly web interface deployed on Hugging Face Spaces  
+
+---
+
+## 📂 Project Structure  
+
+AgriVeinAI/
+│
+├── app.py # Flask backend for handling routes and predictions
+├── predict.py # Prediction pipeline and severity analysis
+├── static/ # CSS, JS, and static assets
+│ ├── style.css
+│ └── images/
+├── templates/ # HTML templates (Home, About, Contact, Predict)
+│ ├── index.html
+│ ├── about.html
+│ ├── contact.html
+│ └── predict.html
+├── models/ # Trained EfficientNetB0 model (.h5 or .keras)
+├── requirements.txt # Dependencies (Flask, TensorFlow, OpenCV, etc.)
+└── README.md # Project Documentation
+
+yaml
+Copy code
+
+---
+
+## 📊 Dataset  
+
+This project uses the **PlantVillage Dataset** (38 classes of plant leaf diseases).  
+📥 Download here: [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)  
+
+---
+
+## 🧠 Model  
+
+- Architecture: **EfficientNetB0**  
+- Training Accuracy: **98%**  
+- Dataset: **PlantVillage (38 classes)**  
+- Improvements:  
+  - Leaf vein extraction for better predictions  
+  - Severity analysis integrated into pipeline  
+
+---
+
+## 🌐 Live Demo  
+
+👉 [Click here to try AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
+
+---
+
+## 🛠️ Installation & Usage  
+
+Clone the repository:  
+
+```bash
+git clone https://github.com/yourusername/AgriVeinAI.git
+cd AgriVeinAI
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Run locally:
+
+bash
+Copy code
+python app.py
+The app will run on: http://127.0.0.1:5000/
+
+👩‍💻 Contributor
+Gummala Likhitha – Hugging Face Profile
+
+📸 Showcase
+🌱 Upload Image → Vein Extraction → Disease Prediction → Severity → Solution
+
+
+📌 Future Improvements
+Add multilingual farmer support
+
+Deploy on cloud servers for scalability
+
+Mobile app integration
+
+📜 License
+This project is licensed under the MIT License – feel free to use and modify.
