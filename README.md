@@ -77,11 +77,11 @@ AgriVeinAI/
 ```
 🧑‍💻 Tech Stack
 ---
-**Backend:** Flask (Python)
-**Frontend:**  HTML, CSS, JavaScript
-**Model:**  EfficientNetB0 (Keras / TensorFlow)
-**Dataset:**  PlantVillage (public dataset for plant disease detection)
-**Deployment:**  Hugging Face Spaces
+|**Backend:** Flask (Python)|
+|**Frontend:**  HTML, CSS, JavaScript|
+|**Model:**  EfficientNetB0 (Keras / TensorFlow)|
+|**Dataset:**  PlantVillage (public dataset for plant disease detection)|
+|**Deployment:**  Hugging Face Spaces|
 
 ⚙️ Installation & Usage
 ---
