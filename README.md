@@ -60,7 +60,7 @@ It uses **leaf vein extraction** to improve predictions, classifies diseases, es
 ---
 
 ## 📂 Project Structure  
-
+```bash
 AgriVeinAI/
 │
 ├── app.py             # Flask backend server
@@ -70,16 +70,20 @@ AgriVeinAI/
 ├── static/            # CSS, JS, images
 ├── requirements.txt   # Python dependencies
 └── README.md          # Documentation
----
+```
 ⚙️ Installation & Usage
+---
 Clone the repository and run locally:
 
 
 # Clone repo
+```
 git clone https://github.com/gummalalikhitha/AgriVeinAI.git
 cd AgriVeinAI
-
+```
+---
 # Install dependencies
+---
 pip install -r requirements.txt
 
 # Run app
@@ -102,13 +106,12 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 💡 Solution Recommendation
 
 👩‍💻 Contributor
+---
 Gummala Likhitha
-
-GitHub
-
-Hugging Face Profile
+---
 
 🚀 Future Improvements
+---
 📱 Mobile app integration
 
 🌍 Multilingual farmer support
@@ -118,6 +121,7 @@ Hugging Face Profile
 🤖 IoT integration for real-time field monitoring
 
 📜 License
+---
 This project is licensed under the MIT License – free to use and modify.
 
 ⭐ If you found this project helpful, don’t forget to star the repo! 🌟
