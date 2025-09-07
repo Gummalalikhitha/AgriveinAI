@@ -42,7 +42,7 @@ AgriVeinAI/
 ├── models/ # Trained EfficientNetB0 model (.h5 or .keras)
 ├── requirements.txt # Dependencies (Flask, TensorFlow, OpenCV, etc.)
 └── README.md # Project Documentation
-
+---
 
 🧑‍💻 Tech Stack
 ---
@@ -84,7 +84,7 @@ This project uses the **PlantVillage Dataset** (38 classes of plant leaf disease
 ## 🛠️ Installation & Usage  
 ---
 Clone the repository:  
-
+---
 ```bash
 git clone https://github.com/yourusername/AgriVeinAI.git
 cd AgriVeinAI
