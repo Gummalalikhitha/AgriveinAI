@@ -1,0 +1,11 @@
+opencv-python
+opencv-contrib-python
+numpy
+scikit-image
+scikit-learn
+matplotlib
+pillow
+tensorflow==2.17.0
+flask
+tqdm
+albumentations
