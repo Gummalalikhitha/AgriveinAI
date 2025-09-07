@@ -113,8 +113,8 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 
 👩‍💻 Contributor
 ---
-Gummala Likhitha – [Github profile](https://github.com/gummalalikhitha/)
----
+**Gummala Likhitha** – [Github profile](https://github.com/gummalalikhitha/)
+
 
 🚀 Future Improvements
 ---
