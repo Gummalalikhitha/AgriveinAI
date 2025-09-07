@@ -1,4 +1,5 @@
-# 🌿 AgriVeinAI – Plant Leaf Disease Detection  
+# 🌿 AgriVeinAI – Plant Leaf Disease Detection 
+**AI-Powered Plant Disease Detection using Leaf Vein Patterns**
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green?logo=flask)](https://flask.palletsprojects.com/)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)](https://www.tensorflow.org/)  
@@ -119,7 +120,7 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 
 👩‍💻 Contributor
 ---
-Gummala Likhitha
+Gummala Likhitha – [GitHub Profile](https://github.com/gummalalikhitha/AgriVeinAI)
 ---
 
 🚀 Future Improvements
