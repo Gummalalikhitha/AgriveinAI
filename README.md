@@ -35,7 +35,7 @@ AgriVeinAI/
 ├── model/               # Trained EfficientNetB0 model files
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
-
+```bash
 🧑‍💻 Tech Stack
 ---
 
