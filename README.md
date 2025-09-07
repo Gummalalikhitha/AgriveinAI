@@ -61,7 +61,6 @@ It uses **leaf vein extraction** to improve predictions, classifies diseases, es
 
 ## 📂 Project Structure  
 
-```bash
 AgriVeinAI/
 │
 ├── app.py             # Flask backend server
