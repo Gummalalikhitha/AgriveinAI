@@ -75,6 +75,14 @@ AgriVeinAI/
 ├── requirements.txt   # Python dependencies
 └── README.md          # Documentation
 ```
+🧑‍💻 Tech Stack
+---
+**Backend:** Flask (Python)
+**Frontend:**  HTML, CSS, JavaScript
+**Model:**  EfficientNetB0 (Keras / TensorFlow)
+**Dataset:**  PlantVillage (public dataset for plant disease detection)
+**Deployment:**  Hugging Face Spaces
+
 ⚙️ Installation & Usage
 ---
 Clone the repository and run locally:
