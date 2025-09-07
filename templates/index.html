@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AgriVeinAI - Home</title>
+  <style>
+       * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f2f7f2; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+   
+ nav {  background: hsl(123, 71%, 21%);  padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; color: white; }
+    nav h1 { font-size: 24px; }
+    nav ul { list-style: none; display: flex; gap: 25px; }
+    nav ul li { display: inline; }
+    nav ul li a { color: white; font-weight: bold; transition: 0.3s; }
+    nav ul li a:hover { color: #d4f5d4; }
+
+    /* Hero Section */
+    .hero { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 120px 10% 80px; 
+    }
+    .hero-text { max-width: 50%; }
+    .hero-text h1 { font-size: 52px; color: #2f7d32; margin-bottom: 20px; line-height: 1.2; }
+    .hero-text p { font-size: 20px; margin-bottom: 35px; color: #399e2c; }
+    .hero-text a.button { 
+    background: hsl(123, 71%, 21%); 
+      color: white; 
+      padding: 15px 40px; 
+      font-size: 18px; 
+      border-radius: 10px; 
+      transition: 0.3s; 
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .hero-text a.button:hover { background: #1add24; transform: translateY(-3px); }
+
+    .hero img { 
+      width: 420px; 
+      border-radius: 20px; 
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    /* Features Section */
+    .features { 
+      display: flex; 
+      justify-content: center; 
+      gap: 30px; 
+      padding: 60px 10%; 
+      text-align: center; 
+    }
+    .feature-box {
+      background: white; 
+      padding: 30px; 
+      border-radius: 15px; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+      width: 30%; 
+      transition: 0.3s;
+    }
+    .feature-box:hover { transform: translateY(-8px); }
+    .feature-box img { width: 70px; margin-bottom: 20px; }
+    .feature-box h3 { color: #14e81b; margin-bottom: 15px; }
+
+    /* Footer */
+    footer { 
+      /* background: #333;  */
+       background: hsl(123, 71%, 21%); 
+      color: #fff; 
+      text-align: center; 
+      padding: 20px; 
+      position: fixed; 
+      bottom: 0; 
+      width: 100%; 
+      font-size: 14px; 
+      box-shadow: 0 -3px 6px rgba(0,0,0,0.2);
+    }
+    footer a { color: #4CAF50; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>🌿 AgriVeinAI</h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="/predict">Predict</a></li>
+    </ul>
+  </nav>
+
+  
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Smart Plant Disease Detection</h1>
+       <br><p>Empowering agriculture with AI-driven plant disease detection for a sustainable future.</p>
+      <br><a href="/predict" class="button">Get Started</a>
+    </div>
+   <img src="static/leaf1.jpg" alt="Leaf Illustration">
+  </div>
+
+  <footer>
+    &copy; 2025 All Rights Reserved | Created by <b>Gummala Likhitha</b>
+  </footer>
+
+</body>
+</html> 
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plant Disease Prediction Result</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; background: #f2f7f2; color: #333; padding-bottom: 80px; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Navbar (same as other pages) */
+    nav {  background: hsl(123, 71%, 21%);  padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; color: white; }
+    nav h1 { font-size: 24px; }
+    nav ul { list-style: none; display: flex; gap: 25px; }
+    nav ul li { display: inline; }
+    nav ul li a { color: white; font-weight: bold; transition: 0.3s; }
+    nav ul li a:hover { color: #d4f5d4; }
+
+    /* Result Card */
+    .card { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; margin-top: 40px; max-width: 800px; }
+    h2 {  color: hsl(123, 71%, 21%);  margin-bottom: 15px; font-size: 30px;}
+    .images { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
+    .images img { width: 300px; height: 300px; object-fit: contain; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    p {color:#164217; margin: 10px 0; font-size: 16px; }
+
+    /* Highlight severity */
+    .severity { font-weight: bold; color: #b51b16; }
+
+    /* Footer (same as other pages) */
+    footer {  background: hsl(123, 71%, 21%);  color: #fff; text-align: center; padding: 20px; position: fixed; bottom: 0; width: 100%; font-size: 14px; }
+    footer a { color: #4CAF50; }
+     .card a.button {  background: hsl(123, 71%, 21%);  color: white; padding: 15px 35px; font-size: 18px; border-radius: 10px; transition: 0.3s; display: inline-block; }
+    .card a.button:hover { background: #45a049; }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>🌿 AgriVeinAI</h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="/predict">Predict</a></li>
+    </ul>
+  </nav>
+
+  <!-- Result Card -->
+  <div class="card">
+    <h2>Plant Disease Prediction</h2>
+    <p><b>Prediction:</b> {{ prediction }}</p>
+    <p><b>📊 Model Confidence:</b> {{ confidence }}%</p>
+    <p><b>🍂 Estimated Severity:</b> <span class="severity">{{ severity }}%</span></p>
+
+    <!-- Images -->
+    <div class="images">
+      <div>
+        <p><b>Uploaded Leaf</b></p>
+        <img src="{{ image_path }}" alt="Uploaded Image">
+      </div>
+
+      {% if vein_img %}
+      <div>
+        <p><b>Extracted Vein Pattern</b></p>
+        <img src="data:image/png;base64,{{ vein_img }}" alt="Vein Pattern">
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Disease info -->
+    <p><b>Description:</b> {{ info.description }}</p>
+    <p><b>Solution:</b> {{ info.solution }}</p>
+
+    <br>
+    <a href="/predict" class="button">Try another image</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 All Rights Reserved | Created by <b>Gummala Likhitha</b>
+  </footer>
+
+</body>
+</html>
