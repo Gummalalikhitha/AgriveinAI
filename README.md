@@ -117,12 +117,10 @@ pip install -r requirements.txt
 python app.py
 Open 👉 http://127.0.0.1:5000/ in your browser.
 
-🌐 Live Demo
-👉 Try AgriVeinAI on Hugging Face Spaces
 
 👩‍💻 Contributor
 ---
-Gummala Likhitha – [GitHub Profile](https://github.com/gummalalikhitha/AgriVeinAI)
+Gummala Likhitha – [GitHub Profile](https://github.com/gummalalikhitha/)
 ---
 
 🚀 Future Improvements
@@ -133,7 +131,6 @@ Gummala Likhitha – [GitHub Profile](https://github.com/gummalalikhitha/AgriVei
 
 ☁️ Cloud-based scalable deployment
 
-🤖 IoT integration for real-time field monitoring
 
 📜 License
 ---
