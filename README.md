@@ -23,24 +23,18 @@ The app extracts **leaf vein patterns**, classifies the disease, estimates its *
 - 🌐 **Deployed on Hugging Face Spaces** for free access worldwide.  
 
 ---
-
 ## 📂 Project Structure  
 
+```bash
 AgriVeinAI/
 │
-├── app.py # Flask backend for handling routes and predictions
-├── predict.py # Prediction pipeline and severity analysis
-├── static/ # CSS, JS, and static assets
-│ ├── style.css
-│ └── images/
-├── templates/ # HTML templates (Home, About, Contact, Predict)
-│ ├── index.html
-│ ├── about.html
-│ ├── contact.html
-│ └── predict.html
-├── models/ # Trained EfficientNetB0 model (.h5 or .keras)
-├── requirements.txt # Dependencies (Flask, TensorFlow, OpenCV, etc.)
-└── README.md # Project Documentation
+├── app.py               # Flask backend to serve predictions
+├── predict.py           # Disease prediction logic
+├── static/              # Static assets (CSS, JS, images)
+├── templates/           # HTML templates (Home, About, Contact, Predict pages)
+├── model/               # Trained EfficientNetB0 model files
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 
 🧑‍💻 Tech Stack
 ---
