@@ -77,11 +77,15 @@ AgriVeinAI/
 ```
 🧑‍💻 Tech Stack
 ---
-|**Backend:** Flask (Python)|
-|**Frontend:**  HTML, CSS, JavaScript|
-|**Model:**  EfficientNetB0 (Keras / TensorFlow)|
-|**Dataset:**  PlantVillage (public dataset for plant disease detection)|
-|**Deployment:**  Hugging Face Spaces|
+**Backend:** Flask (Python)
+
+**Frontend:**  HTML, CSS, JavaScript
+
+**Model:**  EfficientNetB0 (Keras / TensorFlow)
+
+**Dataset:**  PlantVillage (public dataset for plant disease detection)
+
+**Deployment:**  Hugging Face Spaces
 
 ⚙️ Installation & Usage
 ---
@@ -115,18 +119,6 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 
 🌐 Live Demo
 👉 Try AgriVeinAI on Hugging Face Spaces
-
-📸 Workflow Showcase
----
-🌱 Upload Image
-
-🔍 Vein Extraction
-
-🧠 Disease Prediction
-
-📊 Severity Estimation
-
-💡 Solution Recommendation
 
 👩‍💻 Contributor
 ---
