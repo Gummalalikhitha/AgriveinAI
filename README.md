@@ -1,7 +1,6 @@
 # 🌿 AgriVeinAI – Plant Leaf Disease Detection 
 
-AgriVeinAI is an AI-powered web application designed to detect plant leaf diseases from images, analyze their severity, and provide actionable solutions for farmers and agricultural researchers. By leveraging deep learning and leaf vein extraction techniques, the project enhances disease classification accuracy and supports sustainable agriculture.
-
+**AI-Powered Plant Disease Detection using Leaf Vein Patterns**  
 [![Live Demo](https://img.shields.io/badge/HuggingFace-Live%20Demo-yellow)](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
 [![GitHub](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/gummalalikhitha/AgriVeinAI)  
 
@@ -42,7 +41,6 @@ AgriVeinAI/
 ├── models/ # Trained EfficientNetB0 model (.h5 or .keras)
 ├── requirements.txt # Dependencies (Flask, TensorFlow, OpenCV, etc.)
 └── README.md # Project Documentation
----
 
 🧑‍💻 Tech Stack
 ---
@@ -90,12 +88,12 @@ git clone https://github.com/yourusername/AgriVeinAI.git
 cd AgriVeinAI
 Install dependencies:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
 Run locally:
 
-bash
+```bash
 Copy code
 python app.py
 The app will run on: http://127.0.0.1:5000/
