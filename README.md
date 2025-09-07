@@ -1,6 +1,11 @@
 # 🌿 AgriVeinAI – Plant Leaf Disease Detection 
-**AI-Powered Plant Disease Detection using Leaf Vein Patterns**
 
+**AgriVeinAI** is an **AI-powered deep learning application** for detecting **plant leaf diseases** with high accuracy.  
+It uses **leaf vein extraction** to improve predictions, classifies diseases, estimates severity, and provides **actionable solutions** for farmers.  
+
+- ✅ **Dataset:** [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease)  
+- ✅ **Model:** EfficientNetB0 (98% accuracy)  
+- ✅ **Deployed on:** Hugging Face Spaces  
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green?logo=flask)](https://flask.palletsprojects.com/)  
@@ -11,18 +16,6 @@
 🚀 **Live Demo**: [AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)
 
 📂 **GitHub Repo**: [AgriVeinAI](https://github.com/gummalalikhitha/AgriVeinAI)  
-
----
-
-## 📖 Overview  
-
-**AgriVeinAI** is an **AI-powered deep learning application** for detecting **plant leaf diseases** with high accuracy.  
-It uses **leaf vein extraction** to improve predictions, classifies diseases, estimates severity, and provides **actionable solutions** for farmers.  
-
-- ✅ **Dataset:** [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease)  
-- ✅ **Model:** EfficientNetB0 (98% accuracy)  
-- ✅ **Deployed on:** Hugging Face Spaces  
-
 ---
 
 ## ✨ Features  
@@ -120,7 +113,7 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 
 👩‍💻 Contributor
 ---
-Gummala Likhitha – [GitHub Profile](https://github.com/gummalalikhitha/)
+Gummala Likhitha – [Github profile](https://github.com/gummalalikhitha/)
 ---
 
 🚀 Future Improvements
