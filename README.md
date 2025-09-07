@@ -71,11 +71,11 @@ AgriVeinAI/
 ├── static/            # CSS, JS, images
 ├── requirements.txt   # Python dependencies
 └── README.md          # Documentation
+---
 ⚙️ Installation & Usage
 Clone the repository and run locally:
 
-bash
-Copy code
+
 # Clone repo
 git clone https://github.com/gummalalikhitha/AgriVeinAI.git
 cd AgriVeinAI
@@ -91,6 +91,7 @@ Open 👉 http://127.0.0.1:5000/ in your browser.
 👉 Try AgriVeinAI on Hugging Face Spaces
 
 📸 Workflow Showcase
+---
 🌱 Upload Image
 
 🔍 Vein Extraction
