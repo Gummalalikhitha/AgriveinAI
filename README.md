@@ -16,7 +16,7 @@ It uses **leaf vein extraction** to improve predictions, classifies diseases, es
 🚀 **Live Demo**: [AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)
 
 📂 **GitHub Repo**: [AgriVeinAI](https://github.com/gummalalikhitha/AgriVeinAI)  
----
+
 
 ## ✨ Features  
 
