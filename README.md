@@ -1,12 +1,12 @@
 # 🌿 AgriVeinAI – Plant Leaf Disease Detection  
-
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green?logo=flask)](https://flask.palletsprojects.com/)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)](https://www.tensorflow.org/) 
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?logo=tensorflow)](https://www.tensorflow.org/)  
 [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red?logo=opencv)](https://opencv.org/)  
 [![HuggingFace](https://img.shields.io/badge/Deployed-HuggingFace-yellow?logo=huggingface)](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
 
-🚀 **Live Demo**: [AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
+🚀 **Live Demo**: [AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)
+
 📂 **GitHub Repo**: [AgriVeinAI](https://github.com/gummalalikhitha/AgriVeinAI)  
 
 ---
