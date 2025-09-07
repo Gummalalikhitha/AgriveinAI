@@ -3,7 +3,7 @@
 AgriVeinAI is an AI-powered web application designed to detect plant leaf diseases from images, analyze their severity, and provide actionable solutions for farmers and agricultural researchers. By leveraging deep learning and leaf vein extraction techniques, the project enhances disease classification accuracy and supports sustainable agriculture.
 
 [![Live Demo](https://img.shields.io/badge/HuggingFace-Live%20Demo-yellow)](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
-[![GitHub](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/yourusername/AgriVeinAI)  
+[![GitHub](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/gummalalikhitha/AgriVeinAI)  
 
 ## 📖 Project Overview 
 
@@ -43,7 +43,7 @@ AgriVeinAI/
 ├── requirements.txt # Dependencies (Flask, TensorFlow, OpenCV, etc.)
 └── README.md # Project Documentation
 
----
+
 🧑‍💻 Tech Stack
 ---
 
@@ -57,15 +57,15 @@ AgriVeinAI/
 
 **Deployment:** Hugging Face Spaces
 
-## 📊 Dataset  
+## 📊 Dataset
+--- 
 
 This project uses the **PlantVillage Dataset** (38 classes of plant leaf diseases).  
 📥 Download here: [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)  
 
----
 
 ## 🧠 Model  
-
+---
 - Architecture: **EfficientNetB0**  
 - Training Accuracy: **98%**  
 - Dataset: **PlantVillage (38 classes)**  
@@ -76,13 +76,13 @@ This project uses the **PlantVillage Dataset** (38 classes of plant leaf disease
 ---
 
 ## 🌐 Live Demo  
-
+---
 👉 [Click here to try AgriVeinAI on Hugging Face Spaces](https://huggingface.co/spaces/gummalalikhitha/AgriVeinAI)  
 
 ---
 
 ## 🛠️ Installation & Usage  
-
+---
 Clone the repository:  
 
 ```bash
@@ -101,6 +101,7 @@ python app.py
 The app will run on: http://127.0.0.1:5000/
 
 👩‍💻 Contributor
+---
 Gummala Likhitha – Hugging Face Profile
 
 📸 Showcase
@@ -108,6 +109,7 @@ Gummala Likhitha – Hugging Face Profile
 
 
 📌 Future Improvements
+---
 Add multilingual farmer support
 
 Deploy on cloud servers for scalability
