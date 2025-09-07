@@ -75,7 +75,17 @@ AgriVeinAI/
 ⚙️ Installation & Usage
 ---
 Clone the repository and run locally:
+```
+# Clone repo
+git clone https://github.com/gummalalikhitha/AgriVeinAI.git
+cd AgriVeinAI
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+python app.py
+```
 
 # Clone repo
 ```
