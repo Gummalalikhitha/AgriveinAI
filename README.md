@@ -26,7 +26,7 @@ The app extracts **leaf vein patterns**, classifies the disease, estimates its *
 ---
 
 ## 📂 Project Structure  
-```bash
+
 AgriVeinAI/
 │
 ├── app.py # Flask backend for handling routes and predictions
